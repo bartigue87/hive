@@ -1,6 +1,7 @@
 body {
   background-color: #23212c;
   color: #23212c;
+  font-family: "Varela Round", sans-serif;
 }
 
 .logo {
@@ -39,6 +40,7 @@ header {
   width: 120px;
   border-radius: 66px;
   z-index: 10;
+  border: none;
 }
 
 .account {
@@ -207,9 +209,85 @@ main {
     5% 25%
   );
   clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+
+  box-shadow: white 0px 0px 170px 0px;
   transition: background 0.4s;
 }
 
 .hex:hover {
   background: #fcd615;
+  cursor: pointer;
+}
+
+.sport-hex {
+  height: 120px;
+  width: 120px;
+  background: #fcb43a;
+}
+
+.nfl-text {
+  position: relative;
+  top: -10px;
+  left: 40px;
+}
+
+.nfl-icon {
+  position: relative;
+  left: 29px;
+  top: 13px;
+  z-index: 12;
+  visibility: visible;
+  height: 60px;
+  transform: rotate(45deg);
+}
+
+.nba-text {
+  position: relative;
+  top: -2px;
+  left: 40px;
+}
+
+.nba-icon {
+  position: relative;
+  left: 34px;
+  top: 17px;
+  z-index: 12;
+  visibility: visible;
+  height: 53px;
+}
+
+.nhl-text {
+  position: relative;
+  top: -2px;
+  left: 40px;
+}
+
+.nhl-icon {
+  position: relative;
+  left: 34px;
+  top: 17px;
+  z-index: 12;
+  visibility: visible;
+  height: 53px;
+}
+
+.mlb-text {
+  position: relative;
+  top: -2px;
+  left: 40px;
+}
+
+.mlb-icon {
+  position: relative;
+  left: 34px;
+  top: 17px;
+  z-index: 12;
+  visibility: visible;
+  height: 53px;
+}
+
+footer {
+  margin: 0 auto;
+  height: 100px;
+  width: 80%;
 }
